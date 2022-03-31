@@ -312,9 +312,9 @@ document.addEventListener('DOMContentLoaded', function() {
   ) {
     notificationElm.previousElementSibling.focus();
   }
-
+ 
   // Dropdowns
-  
+
   function Dropdown(toggle, menu) {
     this.toggle = toggle;
     this.menu = menu;
