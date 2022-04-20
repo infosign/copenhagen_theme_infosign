@@ -189,9 +189,9 @@ template {
 body {
   background-color: $background_color;
   color: $text_color;
-  font-family: $text_font;
+  font-family: Noto Sans JP,sans-serif;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.8;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -207,7 +207,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading_font;
+  font-family: Noto Sans JP,sans-serif;
   margin-top: 0;
 }
 
@@ -1920,7 +1920,7 @@ ul {
 }
 
 .article-content {
-  line-height: 1.6;
+  line-height: 1.8;
   margin: 40px 0;
   word-wrap: break-word;
 }
