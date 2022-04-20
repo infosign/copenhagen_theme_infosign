@@ -1,9 +1,9 @@
 {
-  "name": "Copenhagen",
-  "author": "Zendesk",
-  "version": "2.14.0",
+  "name": "Copenhagen-infosign",
+  "author": "infosign",
+  "version": "0.0.1",
   "api_version": 2,
-  "default_locale": "en-us",
+  "default_locale": "ja-jp",
   "settings": [
     {
       "label": "colors_group_label",
