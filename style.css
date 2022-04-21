@@ -5152,4 +5152,7 @@ h2.search-result-title::before{
   font-weight: 900;
 }
 
-
+.logo span{
+  font-size: 18px;
+  font-weight: 600;
+}
