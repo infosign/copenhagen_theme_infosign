@@ -1093,7 +1093,7 @@ ul {
   font-family:"Line Awesome Free","Line Awesome Brands";
   font-weight: 900;
   font-size: 16px;
-  content:"> ・";
+  content:" - ";
 }
 
 /***** Search field *****/
@@ -5109,3 +5109,12 @@ html[dir="rtl"] .notification-left-aligned {
 .dropdown-chevron-icon {
   vertical-align: middle;
 }
+
+
+.section-tree-title a::before,
+.dot::before{
+  content:"- ";
+  font-style: normal;
+}
+
+
