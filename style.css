@@ -1709,7 +1709,9 @@ ul {
   font-weight: 600;
 }
 
-.section-tree-title a {
+.section-tree-title a,
+.section-name a,
+.category-name a {
   color: $text_color;
 }
 
@@ -5112,9 +5114,26 @@ html[dir="rtl"] .notification-left-aligned {
 
 
 .section-tree-title a::before,
-.dot::before{
+.dot::before,
+.section-name::before{
   content:"- ";
   font-style: normal;
 }
 
 
+
+
+
+.category-name{
+  flex-basis: 48%;
+  padding-bottom: 12px;
+}
+@media (max-width: 1024px) {
+  .category-name{
+    flex-basis: 100%;
+  }
+}
+
+.section-name{
+  padding: 8px 0;
+}
