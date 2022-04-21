@@ -1,9 +1,9 @@
 {
   "name": "Copenhagen",
   "author": "Zendesk",
-  "version": "2.14.4",
+  "version": "2.14.3",
   "api_version": 2,
-  "default_locale": "ja-jp",
+  "default_locale": "en-us",
   "settings": [
     {
       "label": "colors_group_label",
