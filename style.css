@@ -1082,6 +1082,13 @@ ul {
   content:"> \f518 ";
 }
 
+.search_results .breadcrumbs li:nth-child(2)::before {
+  font-family:"Line Awesome Free","Line Awesome Brands";
+  font-size: 16px;
+  font-weight: 900;
+  content:"> ";
+}
+
 .breadcrumbs li:nth-child(3)::before {
   font-family:"Line Awesome Free","Line Awesome Brands";
   font-weight: 900;
