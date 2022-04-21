@@ -1057,19 +1057,36 @@ ul {
 .breadcrumbs li {
   color: lighten($text_color, 20%);
   display: inline;
-  font-size: 13px;
   max-width: 450px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.breadcrumbs li + li::before {
-  content: ">";
-  margin: 0 4px;
-}
+
 
 .breadcrumbs li a:visited {
   color: $link_color;
+}
+
+.breadcrumbs li:nth-child(1)::before {
+  font-family:"Line Awesome Free","Line Awesome Brands";
+  font-size: 16px;
+  font-weight: 900;
+  content:"\f015";
+}
+
+.breadcrumbs li:nth-child(2)::before {
+  font-family:"Line Awesome Free","Line Awesome Brands";
+  font-size: 16px;
+  font-weight: 900;
+  content:"> \f518 ";
+}
+
+.breadcrumbs li:nth-child(3)::before {
+  font-family:"Line Awesome Free","Line Awesome Brands";
+  font-weight: 900;
+  font-size: 16px;
+  content:"> ・";
 }
 
 /***** Search field *****/
