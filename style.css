@@ -1088,6 +1088,12 @@ ul {
   font-weight: 900;
   content:"> ";
 }
+.search_results .meta-group .breadcrumbs li:nth-child(2)::before {
+  font-family:"Line Awesome Free","Line Awesome Brands";
+  font-size: 16px;
+  font-weight: 900;
+  content:"> \f518 ";
+}
 
 .breadcrumbs li:nth-child(3)::before {
   font-family:"Line Awesome Free","Line Awesome Brands";
@@ -2105,6 +2111,7 @@ ul {
   font-family:"Line Awesome Free","Line Awesome Brands";
   font-size: 16px;
   content:"\f15c";
+  font-weight: 900;
 }
 
 
@@ -2114,6 +2121,7 @@ ul {
   font-family:"Line Awesome Free","Line Awesome Brands";
   font-size: 16px;
   content:"\f15c";
+  font-weight: 900;
 }
 
 /***** Attachments *****/
@@ -4640,8 +4648,8 @@ ul {
 
 .search-results-sidebar .sidenav-item {
   border-radius: 4px;
-  padding: 10px 36px;
-  margin-bottom: 4px;
+  padding: 5px;
+  line-height: 2.4;
   color: $text_color;
 }
 
@@ -5137,3 +5145,11 @@ html[dir="rtl"] .notification-left-aligned {
 .section-name{
   padding: 8px 0;
 }
+
+h2.search-result-title::before{
+  font-family:"Line Awesome Free","Line Awesome Brands";
+  content:"\f15c";
+  font-weight: 900;
+}
+
+
