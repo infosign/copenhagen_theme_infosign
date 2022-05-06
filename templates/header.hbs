@@ -14,7 +14,9 @@
     <nav class="user-nav" id="user-nav">
       <ul class="user-nav-list">
         <li>{{link 'community'}}</li>
-        <li>{{link 'new_request' class='submit-a-request'}}</li>
+          {{#if sign-in}}
+            <li>{{link 'new_request' class='submit-a-request'}}</li>
+          {{/if}}
         {{#unless signed_in}}
           <li>
             {{#link "sign_in" class="sign-in"}}
@@ -83,7 +85,9 @@
           <li class="nav-divider"></li>
         {{/if}}
         <li class="item">{{link 'community' role="menuitem"}}</li>
+        {{#if sign-in}}
         <li class="item">{{link 'new_request' role="menuitem" class='submit-a-request'}}</li>
+        {{/if}}      
         <li class="nav-divider"></li>
         {{#if signed_in}}
           <li class="item">
